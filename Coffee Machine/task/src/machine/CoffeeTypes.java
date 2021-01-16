@@ -10,10 +10,10 @@ public enum CoffeeTypes {
     private final int beans;
     private final int price;
 
-    CoffeeTypes (int water, int milk, int coffeeBeans, int price) {
+    CoffeeTypes (int water, int milk, int beans, int price) {
         this.water = water;
         this.milk = milk;
-        this.beans = coffeeBeans;
+        this.beans = beans;
         this.price = price;
     }
 
